@@ -2,7 +2,7 @@ import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { SplitText } from "@/plugins";
 import ArrowDownSm from "../../../public/assets/imgs/icon/arrow-down-sm.png";
-import Hero31 from "../../../public/assets/imgs/hero/3/1.jpg";
+// import Hero31 from "../../../public/assets/imgs/hero/3/1.jpg";
 import Image from "next/image.js";
 
 const DigitalMarketingHero = () => {
@@ -142,7 +142,7 @@ const DigitalMarketingHero = () => {
             priority
             width={1195}
             style={{ height: "auto" }}
-            src={Hero31}
+            src={"https://images.unsplash.com/photo-1639322537504-6427a16b0a28?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmxvY2tjaGFpbiUyMG5ldHdvcmt8ZW58MHx8MHx8fDA%3D&fm=jpg&q=60&w=3000"}
             alt="Hero Image"
             className="hero3-img"
           />
