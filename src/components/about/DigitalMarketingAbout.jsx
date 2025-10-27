@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollSmoother } from "@/plugins";
 import Link from "next/link.js";
-import About31 from "../../../public/assets/imgs/about/3/1.jpg";
+// import About31 from "../../../public/assets/imgs/about/3/1.jpg";
 import Image from "next/image.js";
 
 gsap.registerPlugin(ScrollSmoother);
@@ -33,8 +33,10 @@ const DigitalMarketingAbout = () => {
                 <Image
                   priority
                   style={{ width: "auto", height: "auto" }}
-                  src={About31}
+                  src={"https://images.unsplash.com/photo-1531482615713-2afd69097998?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmxhY2slMjB0ZWNofGVufDB8fDB8fHww&fm=jpg&q=60&w=3000"}
                   alt="About Thumbnail"
+                  width={500}
+                  height={500}
                   data-speed="auto"
                   className="smootherReset768"
                 />
